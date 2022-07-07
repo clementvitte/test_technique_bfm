@@ -23,6 +23,8 @@ Je n'ai pas encore trouvé de solution.
 
 Pour être plus précis, je pense que le blocage que j'ai est du aux varibles. Je stock mon nom dans une variable dans une fonction, sauf que je n'ai pas encore trouver la solution de comment utiliser une variable d'une fonction dans une autre fonction.
 
+J'ai aussi eu un contre-temps dû a l'utilisation du template EJS, dont on n'avait pas le droit. Cela m'a donc retardé dans mont travail.
+
 
 
 ## Installation et lancement de l'application
