@@ -1,7 +1,6 @@
 const axios = require("axios");
 const recup = [];
 var recupAll = "";
-var x = 1;
 
 
 /*const take = async () => {
@@ -32,18 +31,21 @@ async function take(recupAll) {
     console.log(recup["name"].name, recup["name"].gender);
     var recupAll = recup["name"].name;
     console.log(recupAll);
-    var x = 2;
-    console.log(x);
-    return x
+    //takes(recupAll);
+    return recupAll
 }
 
-console.log(x);
 console.log(recupAll);
 
 async function displayName(recupAll) {
     var elem = document.getElementById("name");
     elem.innerHTML = `Name: ${recupAll}`;
     console.log(recupAll);
+}
+
+async function takes (name) {
+    console.log(name);
+    var elem = (document.getElementById("name").innerHTML = `Name: ${name}`);
 }
 
 take();
